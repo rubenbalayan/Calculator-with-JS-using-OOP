@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+	<div class="calculator">
+		<input type="text" name="field" id="input" maxlength="20">			
+		<div class="keys">
+			<table>
+				<tr>
+					<td class="number" data-value="%">%</td>
+					<td class = "spec" id="sqrt" data-value="sqrt">√</td>
+					<td class = "spec" id="square" data-value="square">x<sup>2</sup></td>
+					<td class = "spec" id="fraction" data-value="fraction">1/x</td>
+				</tr>
+				<tr>
+					<td class = "noevent"></td>
+					<td class="delete" data-value="clear">C</td>
+					<td class="delete" data-value="delete">⌫</td>
+					<td class="number" data-value="÷">÷</td>
+				</tr>
+				<tr>
+					<td class="number" data-value="7">7</td>
+					<td class="number" data-value="8">8</td>
+					<td class="number" data-value="9">9</td>
+					<td class="number" data-value="×">×</td>
+				</tr>
+				<tr>
+					<td class="number" data-value="4">4</td>
+					<td class="number" data-value="5">5</td>
+					<td class="number" data-value="6">6</td>
+					<td class="number" data-value="-">-</td>
+				</tr>
+				<tr>
+					<td class="number" data-value="1">1</td>
+					<td class="number" data-value="2">2</td>
+					<td class="number" data-value="3">3</td>
+					<td class="number" data-value="+">+</td>
+				</tr>
+				<tr>
+					<td class="spec" data-value="sign">±</td>
+					<td class="number" data-value="0">0</td>
+					<td class="number" data-value=".">.</td>
+					<td id="equal">=</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+
+	
+</body>
+</html>
